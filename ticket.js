@@ -14,7 +14,7 @@ var onAddPersonClick = function () {
   var newAge = document.getElementById("newAgeInput").value;
   if (
     window.confirm(
-      "Are you Sure you want to submit a ticket for this person?"
+      "Are you sure you want to submit a ticket for this person?"
     ) === true
   ) {
     addPerson(newName, newAge);
