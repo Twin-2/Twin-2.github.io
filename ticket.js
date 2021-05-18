@@ -45,8 +45,9 @@ var getTickets = function (ticketHolder) {
 var onSubmitTicketClick = function () {
   if (ticketsFor.length > 0) {
     changePage();
-  }else{
-    window.alert("No ticket holders found!")
+  } else {
+    window.alert("No ticket holders found!");
+  }
 };
 
 // a function that onClick will take me to the "submitted" page
